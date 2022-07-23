@@ -1,10 +1,10 @@
 import plotly.graph_objs as go
 import numpy as np
 
-from ga import Func_max
+from ga import FuncMax
 
 
-ga = Func_max()
+ga = FuncMax()
 
 x = [i[0] for i in ga.population]
 y = [i[1] for i in ga.population]
